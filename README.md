@@ -24,7 +24,7 @@ The dataset is divided into three sets for training, validation, and testing:
 | **Train**  | 9447   | 87%        |
 | **Valid**  | 898    | 8%         |
 | **Test**   | 455    | 4%         |
-
+**Total Images** |*10800*| |
 ### Preprocessing
 
 The following preprocessing steps have been applied to the images:
