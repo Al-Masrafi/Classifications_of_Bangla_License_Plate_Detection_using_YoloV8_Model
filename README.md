@@ -53,33 +53,7 @@ The dataset contains 107 classes, covering Bengali numerals, letters, and the na
 #### **District Names**
 `Bagerhat`, `Bagura`, `Bandarban`, `Barguna`, `Barisal`, `Bhola`, `Brahmanbaria`, `Chandpur`, `Chapainawabganj`, `Chatto`, `Chattogram`, `Chuadanga`, `Cox-s Bazar`, `Cumilla`, `Dhaka`, `Dinajpur`, `Faridpur`, `Feni`, `Gaibandha`, `Gazipur`, `Gopalganj`, `Habiganj`, `Jamalpur`, `Jessore`, `Jhalokati`, `Jhenaidah`, `Joypurhat`, `Khagrachari`, `Khulna`, `Kishoreganj`, `Kurigram`, `Kustia`, `Lakshmipur`, `Lalmonirhat`, `Madaripur`, `Magura`, `Manikganj`, `Meherpur`, `Moulvibazar`, `Mymensingh`, `Naogaon`, `Narail`, `Narayanganj`, `Narsingdi`, `Natore`, `Netrokona`, `Nilphamari`, `Noakhali`, `Pabna`, `Panchagarh`, `Patuakhali`, `Pirojpur`, `Rajbari`, `Rajshahi`, `Rangamati`, `Rangpur`, `Satkhira`, `Shariatpur`, `Sherpur`, `Sirajganj`, `Sunamganj`, `Sylhet`, `Tangail`, `Thakurgaon`
 
-## Usage with YOLOv8
 
-This dataset is ready to be used for training a YOLOv8 object detection model.
-
-2.  **Configuration File (`data.yml`):** Use the provided `data.yml` file to point the training script to the dataset.
-    ```
-    roboflow:
-      license: CC BY 4.0
-      project: various-vehicles-license-plate-in-bangla-fclxg
-      url: https://universe.roboflow.com/engineering-3bqg7/various-vehicles-license-plate-in-bangla-fclxg/dataset/1
-      version: 1
-      workspace: engineering-3bqg7
- 
-    ```
-3.  **Training Command:** You can start training with a command similar to this:
-    ```bash
-    yolo detect train data=path/to/your/data.yml model=yolov8n.pt epochs=100 imgsz=420
-    ```
-
-## License
-
-This dataset is licensed under the **CC BY 4.0** license. This means you are free to:
-
-*   **Share** — copy and redistribute the material in any medium or format.
-*   **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
-
-You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
 ### Dataset Visualization
 | Label Distribution | Label Correlogram |
@@ -115,3 +89,13 @@ You must give appropriate credit, provide a link to the license, and indicate if
 
 ### 📊 Confusion Matrix
 <img src="kaggle/working/runs/detect/train2/confusion_matrix_normalized.png" alt="Confusion Matrix" width="720"/> 
+
+
+## License
+
+This dataset is licensed under the **CC BY 4.0** license. This means you are free to:
+
+*   **Share** — copy and redistribute the material in any medium or format.
+*   **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
+
+You must give appropriate credit, provide a link to the license, and indicate if changes were made.
