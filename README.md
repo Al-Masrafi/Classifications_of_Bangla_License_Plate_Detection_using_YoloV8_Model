@@ -111,6 +111,4 @@ You must give appropriate credit, provide a link to the license, and indicate if
 ---
 
 ### 📊 Confusion Matrix
-
-```markdown
-![Confusion Matrix](kaggle/working/runs/detect/train2/confusion_matrix_normalized.png)
+<img src="kaggle/working/runs/detect/train2/confusion_matrix_normalized.png" alt="Confusion Matrix" width="400"/> 
