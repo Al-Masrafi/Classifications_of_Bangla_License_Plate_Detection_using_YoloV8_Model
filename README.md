@@ -111,6 +111,6 @@ You must give appropriate credit, provide a link to the license, and indicate if
 ---
 
 ### 📊 Confusion Matrix
-*(Add your confusion matrix image in `results/confusion_matrix.png` and update the path)*
+
 ```markdown
 ![Confusion Matrix](kaggle/working/runs/detect/train2/confusion_matrix_normalized.png)
