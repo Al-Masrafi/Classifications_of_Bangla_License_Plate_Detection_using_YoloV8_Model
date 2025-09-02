@@ -82,7 +82,7 @@ You must give appropriate credit, provide a link to the license, and indicate if
 ### Dataset Visualization
 | Label Distribution | Label Correlogram |
 |--------------------|--------------------|
-| ![Labels](kaggle/working/runs/detect/train2/labels.jpg) | <img src="kaggle/working/runs/detect/train2/labels_correlogram.jpg" alt="Correlogram" width="400"/> |
+|  <img src="kaggle/working/runs/detect/train2/labels.jpg" alt="Labels" width="400"/>  | <img src="kaggle/working/runs/detect/train2/labels_correlogram.jpg" alt="Correlogram" width="400"/> |
 
 ---
 
