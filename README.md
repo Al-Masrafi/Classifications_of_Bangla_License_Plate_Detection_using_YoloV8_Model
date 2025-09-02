@@ -1,7 +1,9 @@
-# Classifications_of_Bangla_License_Plate_Detection_using_YoloV8_Model
+# Bangla_License_Plate_Detection_using_YoloV8_Model
 
-# Roboflow Dataset:
-# Bangla License Plate Detection using YOLOv8
+## Roboflow Dataset:
+*   **Dataset:** [Link](https://universe.roboflow.com/engineering-3bqg7/various-vehicles-license-plate-in-bangla-fclxg/dataset/1)
+
+
 
 ## 📌 Overview
 This project focuses on detecting and classifying **Bangla License Plates** using the **YOLOv8** object detection model. The system is trained on a custom dataset containing Bangla license plates and achieves high accuracy with strong detection performance.
@@ -90,17 +92,18 @@ You must give appropriate credit, provide a link to the license, and indicate if
 - **Model:** YOLOv8
 - **Framework:** [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - **Training Settings:**
-  - Epochs: *Your number here* (replace)
-  - Batch Size: *Your number here* (replace)
-  - Optimizer: Adam / SGD
-  - Learning Rate: *Your value here*
+  - Epochs: *50* 
+  - Batch Size: *16* 
+  - Optimizer: SGD
+  - Learning Rate: *0.01*
 
 ---
 
 ## ✅ Results
 <img src="kaggle/working/runs/detect/train2/results.png" alt="Result" width="720"/> 
 ---
-## Performance Metrics (Final Epoch)
+
+## 📊 Performance Metrics (Final Epoch)
 | Metric       | Value     |
 |-------------|-----------|
 | **Precision**  | 94.24%   |
