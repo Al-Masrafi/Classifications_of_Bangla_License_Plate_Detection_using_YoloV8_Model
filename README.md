@@ -109,6 +109,6 @@ You must give appropriate credit, provide a link to the license, and indicate if
 | **mAP@50-95**  | 69.25%   |
 
 ---
-
+<img src="kaggle/working/runs/detect/train2/result.png" alt="Confusion Matrix" width="720"/> 
 ### 📊 Confusion Matrix
 <img src="kaggle/working/runs/detect/train2/confusion_matrix_normalized.png" alt="Confusion Matrix" width="720"/> 
