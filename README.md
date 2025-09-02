@@ -98,7 +98,7 @@ You must give appropriate credit, provide a link to the license, and indicate if
 ---
 
 ## ✅ Results
-
+<img src="kaggle/working/runs/detect/train2/results.png" alt="Result" width="720"/> 
 ### Performance Metrics (Final Epoch)
 | Metric       | Value     |
 |-------------|-----------|
@@ -107,8 +107,6 @@ You must give appropriate credit, provide a link to the license, and indicate if
 | **F1-Score**   | 94.19%   |
 | **mAP@50**     | 96.98%   |
 | **mAP@50-95**  | 69.25%   |
-
-<img src="kaggle/working/runs/detect/train2/results.png" alt="Result" width="720"/> 
 ---
 
 ### 📊 Confusion Matrix
