@@ -1,0 +1,127 @@
+description: Ultralytics best model trained on /kaggle/working/Various-vehicles-license-plate-in-Bangla-1/data.yaml
+author: Ultralytics
+date: '2025-08-22T21:57:32.678664'
+version: 8.3.184
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 448
+- 448
+names:
+  0: '0'
+  1: '1'
+  2: '102'
+  3: '103'
+  4: '105'
+  5: '2'
+  6: '3'
+  7: '4'
+  8: '5'
+  9: '6'
+  10: '7'
+  11: '8'
+  12: '9'
+  13: A
+  14: Ba
+  15: Bagerhat
+  16: Bagura
+  17: Bandarban
+  18: Barguna
+  19: Barisal
+  20: Bha
+  21: Bhola
+  22: Brahmanbaria
+  23: Cha
+  24: Chandpur
+  25: Chapainawabganj
+  26: Chatto
+  27: Chattogram
+  28: Chha
+  29: Chuadanga
+  30: Cox-s Bazar
+  31: Cumilla
+  32: DA
+  33: Da
+  34: Dha
+  35: Dhaka
+  36: Dinajpur
+  37: E
+  38: Faridpur
+  39: Feni
+  40: Ga
+  41: Gaibandha
+  42: Gazipur
+  43: Gha
+  44: Gopalganj
+  45: Ha
+  46: Habiganj
+  47: Ja
+  48: Jamalpur
+  49: Jessore
+  50: Jha
+  51: Jhalokati
+  52: Jhenaidah
+  53: Joypurhat
+  54: Ka
+  55: Kha
+  56: Khagrachari
+  57: Khulna
+  58: Kishoreganj
+  59: Kurigram
+  60: Kustia
+  61: LP
+  62: La
+  63: Lakshmipur
+  64: Lalmonirhat
+  65: Ma
+  66: Madaripur
+  67: Magura
+  68: Manikganj
+  69: Meherpur
+  70: Metro
+  71: Moulvibazar
+  72: Mymensingh
+  73: Na
+  74: Naogaon
+  75: Narail
+  76: Narayanganj
+  77: Narsingdi
+  78: Natore
+  79: Netrokona
+  80: Nilphamari
+  81: Noakhali
+  82: Pa
+  83: Pabna
+  84: Patuakhali
+  85: Pirojpur
+  86: Raj
+  87: Rajbari
+  88: Rajshahi
+  89: Rangamati
+  90: Rangpur
+  91: Sa
+  92: Satkhira
+  93: Sha
+  94: Shariatpur
+  95: Sherpur
+  96: Sirajganj
+  97: Sunamganj
+  98: Sylhet
+  99: THA
+  100: Ta
+  101: Tangail
+  102: Tha
+  103: Thakurgaon
+  104: U
+  105: V
+  106: panchagarh
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  nms: false
+channels: 3
