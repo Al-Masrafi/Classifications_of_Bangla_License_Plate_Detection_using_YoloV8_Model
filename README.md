@@ -78,12 +78,11 @@ This dataset is licensed under the **CC BY 4.0** license. This means you are fre
 *   **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
 
 You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-<img src="kaggle/working/runs/detect/train2/labels_correlogram.jpg" alt="Photo" width="400"/>
 
 ### Dataset Visualization
 | Label Distribution | Label Correlogram |
 |--------------------|--------------------|
-| ![Labels](kaggle/working/runs/detect/train2/labels.jpg) | ![Correlogram](kaggle/working/runs/detect/train2/labels_correlogram.jpg) |
+| ![Labels](kaggle/working/runs/detect/train2/labels.jpg) | <img src="kaggle/working/runs/detect/train2/labels_correlogram.jpg" alt="Correlogram" width="400"/> |
 
 ---
 
